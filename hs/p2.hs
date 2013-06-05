@@ -1,5 +1,6 @@
 -- Finds the sum of the even-valued terms of the Fibonacci sequence not
 -- exceeding four million.
+--
 -- (c) 2013 Matthew Rheaume
 
 module Main where
