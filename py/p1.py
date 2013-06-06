@@ -4,7 +4,13 @@
 # (c) 2013 Matthew Rheaume
 
 def solve():
-	return sum([v for v in range(1,1000) if (v % 3 == 0) or (v % 5 == 0)])
+	sum = 0
+
+	for i in xrange(1,1000):
+		if (i % 3 == 0) or (i % 5 == 0):
+			sum += i
+
+	return sum
 
 if __name__ == "__main__":
 	print solve()
