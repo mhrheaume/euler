@@ -1,4 +1,4 @@
--- Finds the largest palindrome made from the project of two 3-digit numbers
+-- Finds the largest palindrome made from the product of two 3-digit numbers
 --
 -- (c) 2013 Matthew Rheaume
 
