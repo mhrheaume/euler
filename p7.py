@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Finds the 10,001st prime number.
 #
@@ -7,7 +7,7 @@
 import math
 
 def is_prime(n):
-	for i in xrange(2, int(math.sqrt(n)) + 1):
+	for i in range(2, int(math.sqrt(n)) + 1):
 		if (n % i == 0):
 			return False
 
@@ -26,4 +26,4 @@ def solve():
 	return n
 
 if __name__ == "__main__":
-	print solve()
+	print(solve())

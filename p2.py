@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Finds the sum of the even-valued terms of the Fibonacci sequence not
 # exceeding four million.
@@ -21,4 +21,4 @@ def solve():
 	return total
 
 if __name__ == "__main__":
-	print solve()
+	print(solve())

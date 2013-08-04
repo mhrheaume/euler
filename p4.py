@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Finds the largest palindrome made from the project of two 3-digit numbers.
 #
@@ -21,8 +21,8 @@ def is_palindrome(v):
 def solve():
 	max_prod = 0
 
-	for i in xrange(99, 999):
-		for j in xrange(i, 100, -1):
+	for i in range(99, 999):
+		for j in range(i, 100, -1):
 			prod = i * j
 
 			if (is_palindrome(prod) and prod > max_prod):
@@ -31,4 +31,4 @@ def solve():
 	return max_prod
 
 if __name__ == "__main__":
-	print solve()
+	print(solve())

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Finds the smallest positive number that is evenly divisible by all of the
 # numbers from 1 to 20.
@@ -6,7 +6,7 @@
 # (c) 2013 Matthew Rheaume
 
 def euler_sieve(n):
-	vals = range(2, n+1)
+	vals = list(range(2, n+1))
 	primes = []
 
 	while (len(vals) != 0):
@@ -34,4 +34,4 @@ def solve():
 	return prod
 
 if __name__ == "__main__":
-	print solve()
+	print(solve())

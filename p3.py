@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # Finds largest prime factor of the number 600851475143
 #
@@ -9,16 +9,17 @@ def solve():
 	num = 600851475143
 
 	while (num != 1):
-		for i in xrange(2,num + 1):
+		for i in range(2,num + 1):
 			if (num % i != 0):
 				continue
 
-			num = num / i
+			num = num // i
 			if (i > max_prime):
 				max_prime = i
+
 			break
 
 	return max_prime
 
 if __name__ == "__main__":
-	print solve()
+	print(solve())
